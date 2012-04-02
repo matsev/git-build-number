@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Git SHA-1 Demo</title>
+</head>
+
+<body>
+
+<h1>Git SHA-1 Demo</h1>
+
+<p>
+    A demo of how a Git SHA-1 can be embedded in a project:
+    <ul>
+        <li>Added to the DOM: <button onclick="alert('Git SHA-1: ${buildNumber}')">Git SHA-1</button></li>
+        <li>View the source of this page to see it added to the DOM as a html comment at the bottom of this page</li>
+        <li>In the <i>buildNumber.properties</i> file (look in the <i>WEB-INF/classes</i> folder in the generated .war file)</li>
+        <li>As an ordinary Java method call to the <code>PropertyReader.getGitSha1()</code></li>
+        <li>As a JSON response from the server: <a href="../build-number/git-sha-1">/build-number/git-sha-1</a></li>
+        <li>As an entry in the <i>MANIFEST.MF</i> (look in the <i>META-INF</i> folder in the generated .war file)</li>
+    </ul>
+
+    <!-- Git SHA-1: ${buildNumber} -->
+
+</body>
+
+</html>
