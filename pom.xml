@@ -12,6 +12,7 @@
     <developers>
         <developer>
             <name>Mattias Severson</name>
+            <url>http://blog.jayway.com/2012/04/07/continuous-deployment-versioning-and-git</url>
             <organization>Jayway</organization>
             <organizationUrl>http://www.jayway.com</organizationUrl>
         </developer>
